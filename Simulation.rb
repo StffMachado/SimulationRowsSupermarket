@@ -1,3 +1,8 @@
 class Simulation
-#Class start simulation
+
+
+  def initialize()
+    
+  end
+
 end
