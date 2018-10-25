@@ -1,8 +1,17 @@
+require './UserInput.rb'
+
 class Simulation
 
+  def start
 
-  def initialize()
-    
+  usr = UserInput.new()
+  usr.first_command
+
   end
+
+  def
+
+  end
+
 
 end
