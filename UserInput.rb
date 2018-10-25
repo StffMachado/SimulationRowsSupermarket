@@ -1,3 +1,5 @@
+load 'Simulation.rb'
+
 class UserInput
 
 
@@ -89,7 +91,8 @@ def validate_command_four(commandfour)
     time_simulation_delta(commandfour)
   else
     @@data[3] = commandfour.to_i
-
+    data = Simulation.new()
+    data.generate_cash(@@data)
   end
 
 

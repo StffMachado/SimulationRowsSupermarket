@@ -1,4 +1,5 @@
 require './UserInput.rb'
+require './CashBox.rb'
 
 class Simulation
 
@@ -9,7 +10,10 @@ class Simulation
 
   end
 
-  def
+  def generate_cash(data)
+
+    cash = CashBox.new()
+    cash.validate_cash(data)
 
   end
 
